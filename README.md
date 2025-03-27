@@ -21,7 +21,7 @@ Due to **GitHub's file size limitations**, two large files are not included in t
   ```
 
 ## Additional Cleanup Steps
-To keep the project organized, remove **one file each** from the following directories:
+To keep the project organized, renmane **remove one from file name** from the following directories:
 - **Logs**
 - **Library**
 - **User Setting**
