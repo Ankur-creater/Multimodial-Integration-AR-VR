@@ -1,44 +1,43 @@
-I can't directly download from Google Drive or modify files on your system, but I can guide you through the process. Here's what you need to do:
+# Multimodal Integration AR-VR
 
-Steps to Download and Paste the Files
-Download Files
+## Project Overview
+This project integrates **Augmented Reality (AR) and Virtual Reality (VR)** technologies for multimodal interaction and visualization. It utilizes **Unity** with various packages to achieve high-performance rendering and simulation.
 
-Open the following links in your browser:
+## Missing Large Files
+Due to **GitHub's file size limitations**, two large files are not included in the repository. Follow these steps to manually download and place them in the correct locations:
 
-File 1
+### **1. Download the Required Files**
+- **File 1:** [Download libburst-llvm-16.dylib](https://drive.google.com/file/d/1h62B8JpLz8ESx5xV7Qx8--wTtnBEB4yi/view?usp=drive_link)
+- **File 2:** [Download ArtifactDB](https://drive.google.com/file/d/1TIrYRu2lxYif0csqHxibsExyV963XhN3/view?usp=drive_link)
 
-File 2
+### **2. Paste the Files in the Following Locations**
+- **libburst-llvm-16.dylib** → Paste into:  
+  ```
+  C:\...\Multimodial-Integration-AR-VR\PackageCache\com.unity.burst\.Runtime\
+  ```
+- **ArtifactDB** → Paste into:  
+  ```
+  C:........\Multimodial-Integration-AR-VR\Library1\
+  ```
 
-Click the Download button.
+## Additional Cleanup Steps
+To keep the project organized, remove **one file each** from the following directories:
+- **Logs**
+- **Library**
+- **User Setting**
 
-Paste the Files to Specific Locations
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/Multimodal-Integration-AR-VR.git
+   ```
+2. Follow the **missing files download** instructions above.
+3. Open the project in **Unity 6**.
+4. Ensure all required dependencies are installed.
+5. Run the project and test AR/VR functionality.
 
-Move File 1 (libburst-llvm-16.dylib) to:
+## Contributing
+Feel free to submit **pull requests** for bug fixes, optimizations, or new features.
 
-makefile
-Copy
-Edit
-C:\...\Multimodial-Integration-AR-VR\PackageCache\com.unity.burst\.Runtime\
-Move File 2 to:
-
-makefile
-Copy
-Edit
-C:\Users\ankur\Documents\GitHub\Multimodial-Integration-AR-VR\Library1\ArtifactDB\
-Modify Logs, Library, and User Setting
-Delete one file from each of these locations:
-
-Logs
-
-Library
-
-User Setting (Be careful to remove only unnecessary or temporary files.)
-
-GitHub README Update
-I can draft a README.md update for you. What details do you want to add?
-
-Instructions on downloading and placing missing files?
-
-Project setup steps?
-
-Any other modifications?
+## License
+This project is licensed under the **MIT License**.
